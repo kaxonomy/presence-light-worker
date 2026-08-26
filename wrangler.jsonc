@@ -3,6 +3,7 @@
   "name": "presence-light-worker",
   "main": "src/index.ts",
   "compatibility_date": "2026-08-25",
+  "keep_vars": true,
   "durable_objects": {
     "bindings": [
       {
