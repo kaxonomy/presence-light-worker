@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "presence-light-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-25",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "PRESENCE_ROOMS",
+        "class_name": "PresenceRoom"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["PresenceRoom"]
+    }
+  ]
+}
