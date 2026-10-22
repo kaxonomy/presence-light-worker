@@ -4,7 +4,7 @@ Cloudflare Worker backend for one persisted `available`/`busy` state per room. E
 
 ## Setup
 
-Requirements: Node.js 22+ and pnpm 11+.
+Requirements: Node.js 24 (or Node.js 22.12+ in the 22.x release line) and pnpm 12.15.0.
 
 ```sh
 pnpm install
